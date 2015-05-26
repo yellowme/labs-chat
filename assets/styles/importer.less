@@ -1,0 +1,104 @@
+/**
+ * importer.less
+ *
+ * By default, new Sails projects are configured to compile this file
+ * from LESS to CSS.  Unlike CSS files, LESS files are not compiled and
+ * included automatically unless they are imported below.
+ *
+ * The LESS files imported below are compiled and included in the order
+ * they are listed.  Mixins, variables, etc. should be imported first
+ * so that they can be accessed by subsequent LESS stylesheets.
+ *
+ * (Just like the rest of the asset pipeline bundled in Sails, you can
+ * always omit, customize, or replace this behavior with SASS, SCSS,
+ * or any other Grunt tasks you like.)
+ */
+
+
+
+// For example:
+//
+// @import 'variables/colors.less';
+// @import 'mixins/foo.less';
+// @import 'mixins/bar.less';
+// @import 'mixins/baz.less';
+//
+// @import 'styleguide.less';
+// @import 'pages/login.less';
+// @import 'pages/signup.less';
+//
+// etc.
+
+@import 'bootstrap_material.min.css';
+
+body{
+  background: #ededed;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar-aqua {
+  background-color: rgb(63,81,181);
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+.navbar-brand:hover {
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+.navbar-menu:hover, .navbar-menu:active, .navbar-menu li:hover, .navbar-menu li:active, 
+.navbar-menu li a:hover, .navbar-menu li a:active {
+  background-color: transparent;
+}
+.demo-toolbar {
+  background: #f2f2f2 !important;
+  color: #616161;
+  border-bottom: 1px solid #e5e5e5;
+}
+.demo-toolbar-content {
+  background-color: white;
+  height:100%;
+  width: 100%;
+  min-height:100%;
+  min-width: 100%;
+}
+
+.navbar{
+  border-radius: 0px;
+}
+.form_chat{
+  padding:10px;
+}
+.form-control{
+  width: inherit;
+}
+.chat_message{
+  padding: 10px;
+  color: #000;
+  font-size: 15px;
+background: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+.td_class{
+  word-break:break-all;
+  padding: 34px;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  border:0;
+}
+.navbar-brand{
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.user_name{
+  padding-bottom: 0;
+  color: #fff;
+  font-size: 15px;
+}
+.col-lg-4,.col-lg-6{
+  padding-right: 3px;
+  padding-left: 3px;
+}
